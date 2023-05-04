@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(29, 47, 106);
+    color: white;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav .container span {
+    margin: 0 30px 0 0;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.container {
+    margin: auto;
+}
+
+.home-class .container select {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.home-class .row > div .card {
+    border: solid 1px;
+    border-radius: 16px;
+}
+
+.home-class .row > div .card img {
+    border-radius: 16px 16px 0 0;
+}
+
+.card .card-body {
+    padding: 10px;
+}
+
+.card .card-body .card-title {
+    font-size: 25px;
+}
+
+.card .card-body .card-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    border-radius: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.detail-button {
+    background-color: #007bff;
+}
+
+.favorite-button {
+    background-color:  #28a745;
+}
+
+.return-button {
+    background-color: #17a2b8;
+}
+
+.detail-button:hover {
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+.favorite-button:hover {
+    border: 1px solid  #28a745;
+    color:  #28a745;
+}
+
+.return-button:hover {
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+}
+
+.personaje.row {
+    width: 700px;
+    border: solid 1px;
+    border-radius: 16px;
+    margin: auto;
+}
+
+.personaje.row img {
+    margin: 0;
+    border-radius: 16px 0 0 16px;
+    height: 100%;
+}
+
+.personaje.row .card-body {
+    padding: 15px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+} 
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+} 
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
